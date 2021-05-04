@@ -1,5 +1,5 @@
 [package]
-authors = ["smilevent <1028330144@qq.com>"]
+authors = ["liuxsdev <1028330144@qq.com>"]
 edition = "2018"
 name = "mcmap"
 version = "0.1.0"
