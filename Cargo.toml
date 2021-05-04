@@ -1,0 +1,15 @@
+[package]
+authors = ["smilevent <1028330144@qq.com>"]
+edition = "2018"
+name = "mcmapfile_to_png"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hematite-nbt = "0.5.1"
+png = "0.16.8"
+stopwatch = "0.0.7"
+
+[profile.release]
+lto = "fat"
